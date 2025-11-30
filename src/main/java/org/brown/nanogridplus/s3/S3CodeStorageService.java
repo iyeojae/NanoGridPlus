@@ -2,7 +2,6 @@ package org.brown.nanogridplus.s3;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.brown.nanogridplus.config.AgentConfig;
 import org.brown.nanogridplus.config.AgentProperties;
 import org.brown.nanogridplus.model.TaskMessage;
 import org.springframework.stereotype.Service;
@@ -27,7 +26,6 @@ public class S3CodeStorageService implements CodeStorageService {
 
     private final S3Client s3Client;
     private final AgentProperties agentProperties;
-    private final AgentConfig agentConfig;
 
     @Override
     public Path prepareWorkingDirectory(TaskMessage taskMessage) {
