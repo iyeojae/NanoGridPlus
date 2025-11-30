@@ -1,9 +1,6 @@
 # EC2 프로덕션 환경 설정
 # 사용법: java -jar app.jar --spring.profiles.active=prod
 
-spring:
-  profiles:
-    active: prod
 
 # Agent 통합 설정 (프로덕션)
 agent:
