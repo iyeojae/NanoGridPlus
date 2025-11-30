@@ -132,8 +132,6 @@ public class DockerEngineService implements DockerService {
                     .peakMemoryBytes(null)
                     .optimizationTip(null)
                     .build();
-                    .optimizationTip(null)
-                    .build();
 
         } finally {
             // 7. 컨테이너를 Warm Pool에 반환
