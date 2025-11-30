@@ -8,11 +8,9 @@ group = 'org.brown'
 version = '0.0.1-SNAPSHOT'
 description = 'NanoGridPlus'
 
-java {
-    toolchain {
-        languageVersion = JavaLanguageVersion.of(17)
-    }
-}
+// Java 버전 설정 (Toolchain 대신 직접 지정)
+sourceCompatibility = '17'
+targetCompatibility = '17'
 
 configurations {
     compileOnly {
